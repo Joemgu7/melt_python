@@ -11,7 +11,7 @@ setuptools.setup(
     description="Video editing using MLT with Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com",
+    url="https://github.com/Joemgu7/melt_python",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,8 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
-    install_requires=[
-        'xml',
-    ],
     keywords='video editing',
 )
